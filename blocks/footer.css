@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 60px 668px;
+  margin: 0;
+  max-width: 104px;
+  line-height: 16px;
+}
+
+.footer__copyright {
+  display: flex;
+  margin: 0;
+}
