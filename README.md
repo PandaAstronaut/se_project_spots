@@ -12,4 +12,4 @@
 
 This webppage is deployed to GihHub Pages
 
-- Deployment Link:
+- Deployment Link: - https://pandaastronaut.github.io/se_project_spots/
