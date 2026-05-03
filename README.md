@@ -10,7 +10,7 @@
 
 ## Deployment
 
-This webppage is deployed to GihHub Pages
+This webppage is deployed to GitHub Pages
 
 ### Deployment note from coder
 
