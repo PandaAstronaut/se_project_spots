@@ -56,6 +56,12 @@
   border: none;
   padding: 0;
   opacity: 70%;
+  transition: opacity 0.3s ease;
+}
+
+.profile__edit-btn:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .profile__add-btn {
@@ -70,6 +76,12 @@
   background-color: #212121;
   color: #fcf5e5;
   gap: 8px;
+  transition: opacity 0.3s ease;
+}
+
+.profile__add-btn:hover {
+  opacity: 80%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
