@@ -1,6 +1,6 @@
 # Project 3: Spots
 
-<!-- TO DO: describe the project and its' functionality -->
+- A basic social media photo-sharing app
 
 ## Description of technologies and techniques used
 

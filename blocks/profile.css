@@ -25,7 +25,7 @@
   margin: 0 0 12px;
   font-weight: 500;
   font-size: 32px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   line-height: 100%;
   display: -webkit-box;
   overflow: hidden;
@@ -39,7 +39,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   margin: 0 0 18px;
   opacity: 70%;
   display: -webkit-box;
@@ -56,6 +56,11 @@
   border: none;
   padding: 0;
   opacity: 70%;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #212121;
   transition: opacity 0.3s ease;
 }
 
@@ -72,6 +77,7 @@
   margin-top: auto;
   width: 149px;
   height: 52px;
+  border: none;
   border-radius: 8px;
   background-color: #212121;
   color: #fcf5e5;
@@ -114,6 +120,9 @@
   }
 
   .profile__column {
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
     margin: 0 0 20px;
     display: flex;
     align-items: center;
@@ -124,15 +133,5 @@
   .profile__add-btn {
     margin: 0;
     width: 100%;
-  }
-
-  .profile__edit-btn {
-  }
-
-  .page__section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
   }
 }
