@@ -31,7 +31,7 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   font-size: 32px;
 }
 
@@ -67,7 +67,7 @@
   font-weight: 500;
   line-height: 1.1;
   font-family: Poppins, Arial, Helvetica, sans-serif;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #212121b2;
 }
 
@@ -77,12 +77,12 @@
   border: #21212166 solid;
   border-width: 1px;
   border-radius: 8px;
-  padding: 16px 0;
+  padding: 16px 0 16px 12px;
   margin: 8px 0 0;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .modal__input::placeholder {
