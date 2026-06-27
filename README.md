@@ -27,3 +27,7 @@ this project was made along with a project pitch video, which was recorded using
 ### IMPORTANT: Please review deploy-test branch instead of main
 
 - Because I was unable to publish my main branch to GitHub Pages, deploy-test is the branch that was. There is where all of my updates and commits are going. Thank you!
+
+## UPDATE: working branch has been switched back to main per request of a tutor
+
+- Hopefully this fixes the issue of stage 3 not getting accepted.
