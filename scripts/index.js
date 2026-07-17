@@ -29,3 +29,38 @@ function newPostCloseBtnClick() {
 newPostBtn.addEventListener("click", newPostBtnClick);
 
 newPostCloseBtn.addEventListener("click", newPostCloseBtnClick);
+
+const profileNameText = document.querySelector(".profile__name");
+const profileDescriptionText = document.querySelector(".profile__description");
+const editProfileForm = document.querySelector(".modal__form");
+const profileNameInputText = editProfileForm.querySelector(
+  "#profile-name-input",
+);
+const profileDescriptionInputText = editProfileForm.querySelector(
+  "#profile-description-input",
+);
+
+function handleProfileFormSubmit(evt) {
+  evt.preventDefault();
+  profileNameText.textContent = profileNameInputText.value;
+  profileDescriptionText.textContent = profileDescriptionInputText.value;
+
+  profileEditModal.classList.remove("modal_is-opened");
+}
+
+editProfileForm.addEventListener("submit", handleProfileFormSubmit);
+
+const addBtnFormElement = newPostModal.querySelector(".modal__form");
+const cardLinkInput = newPostModal.querySelector("#card-image-input");
+const cardNameInput = newPostModal.querySelector("#card-caption-input");
+
+function handleAddCardSubmit(evt) {
+  evt.preventDefault();
+
+  console.log(cardLinkInput.value);
+  console.log(cardNameInput.value);
+
+  newPostModal.classList.remove("modal_is-opened");
+}
+
+addBtnFormElement.addEventListener("submit", handleAddCardSubmit);
