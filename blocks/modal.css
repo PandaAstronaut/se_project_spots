@@ -19,9 +19,6 @@
 .modal_is-opened {
   visibility: visible;
   opacity: 1;
-  transition:
-    opacity 0.5s ease,
-    visibility 0.5s ease;
 }
 
 .modal__container {
@@ -55,6 +52,12 @@
   right: 50px;
   width: 40px;
   height: 40px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.modal__close-btn:hover {
+  opacity: 0.8;
 }
 
 .modal__form {
@@ -91,6 +94,7 @@
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0;
+  box-sizing: border-box;
 }
 
 .modal__input::placeholder {
@@ -104,21 +108,15 @@
   max-width: 156px;
   width: 100%;
   padding: 18px 32px;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.modal__submit-btn:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
-  .modal {
-    background-color: #00000080;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .modal__container {
     max-width: 300px;
     padding: 12px;
