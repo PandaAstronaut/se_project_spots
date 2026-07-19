@@ -60,6 +60,7 @@ function handleAddCardSubmit(evt) {
   console.log(cardLinkInput.value);
   console.log(cardNameInput.value);
   closeModal(newPostModal);
+  addBtnFormElement.reset();
 }
 
 profileEditBtn.addEventListener("click", openProfileEditModal);
