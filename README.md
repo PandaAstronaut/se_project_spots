@@ -2,10 +2,10 @@
 
 - A basic social media photo-sharing app
 
-## Description of technologies and techniques used
+## Description
 
-- HTML
-- CSS
+- technologies used: HTML, CSS, Responsive Design, JavaScript, Dot and suggestions from Gemini
+- description: Project 3: Spots is a basic social media website which allows the user to update profile info and photos. It will also display a small image gallery from which the user may replace it's photos as they see fit.
 - Responsive Design
 
 ## Deployment
