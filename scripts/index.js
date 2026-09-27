@@ -83,8 +83,8 @@ function getCardElement(data) {
   );
 
   const cardDeleteBtn = cardElement.querySelector(".card__delete-btn");
-  const cardItem = cardElement.querySelector(".card__item");
-  cardDeleteBtn.addEventListener("click", () => cardItem.remove());
+  const card = cardElement.querySelector(".card");
+  cardDeleteBtn.addEventListener("click", () => card.remove());
 
   return cardElement;
 }
