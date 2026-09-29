@@ -45,15 +45,14 @@
         <section class="cards page__section">
           <ul class="cards__list"></ul>
           <template id="card-template">
-            <div class="card">
+            <li class="card">
               <button type="button" class="card__delete-btn"></button>
               <img class="card__image" />
               <div class="card__content">
                 <h2 class="card__title"></h2>
                 <button type="button" class="card__like-btn"></button>
-              </div>
-            </div>
-          </template>
+              </div></li
+          ></template>
         </section>
       </main>
       <footer class="footer">
@@ -102,6 +101,7 @@
                 type="url"
                 class="modal__input"
                 placeholder="Place a link to the picture"
+                required
               />
             </label>
             <label for="card-caption-input" class="modal__label">
@@ -111,6 +111,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your caption"
+                required
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
@@ -125,7 +126,7 @@
           >
             <img src="./images/x-icon-white.svg" alt="white icon of an X" />
           </button>
-          <img class="modal__popup-img" />
+          <img class="modal__popup-img" alt="a popup modal image" />
           <h2 class="modal__popup-title"></h2>
         </div>
       </div>

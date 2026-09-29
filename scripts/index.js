@@ -112,6 +112,9 @@ function handleProfileFormSubmit(evt) {
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
+  if (!cardNameInput.value.trim() || !cardLinkInput.value.trim()) {
+    return;
+  }
   const cardPrefill = { name: cardNameInput.value, link: cardLinkInput.value };
   const newCardElement = getCardElement(cardPrefill);
   closeModal(newPostModal);

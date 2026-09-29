@@ -57,7 +57,6 @@
 }
 
 .modal__close-btn_type_preview {
-  background-image: url(../images/x-icon-white.svg);
   top: 0;
   right: -52.5px;
   opacity: 1;
@@ -130,14 +129,6 @@
   opacity: 0.8;
 }
 
-.expand-view-modal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background-color: transparent;
-}
-
 .modal__container-preview {
   display: block;
   position: relative;
@@ -146,12 +137,12 @@
 }
 
 .modal__popup-title {
+  margin: 8px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 1000px;
   width: fit-content;
-  height: 32px;
   border-radius: 8px;
   padding: 4px 8px;
   opacity: 1;
@@ -220,10 +211,6 @@
     max-width: 276px;
   }
 
-  .modal__popup-title {
-    margin: 0;
-  }
-
   .modal__popup-img {
     max-width: 288px;
     max-height: 430px;
@@ -235,6 +222,5 @@
     font-size: 16px;
     line-height: 120%;
     letter-spacing: 0;
-    margin-top: 8px;
   }
 }

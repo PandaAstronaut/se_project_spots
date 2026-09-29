@@ -50,6 +50,7 @@
 }
 
 .profile__edit-btn {
+  cursor: pointer;
   margin-top: auto;
   background-color: transparent;
   border: none;
@@ -69,6 +70,7 @@
 }
 
 .profile__add-btn {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
